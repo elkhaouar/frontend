@@ -1,0 +1,268 @@
+
+body{
+    background-image: url(../image/background.jpg);
+    background-size: 99%;
+    padding:0 ;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+#img-right{
+    float: right;
+}
+
+#img-left{
+    float: left;
+    margin-left: 20px;
+}
+
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.bar{
+    width :20%;
+    height: 468px;
+    background-color: rgb(18, 18, 39,0.8);
+    float: left;
+}
+
+#logo{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 15px;
+    margin: 0;
+    background-color: rgb(0, 0, 0,0.8);
+}
+.body{
+    float: right;
+}
+
+.bar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bar a:hover{
+     background-color: red;
+     transition: 0.5s;
+     letter-spacing: 4px;
+     text-transform: uppercase;
+
+}
+
+.body{
+    width: 75%;
+    background-color: rgb(18, 18, 39,0.2);
+    margin-left: 30px;
+    border: 1px ridge black;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+input{
+    width: 200px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    border-radius: 3px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+
+    margin-top:40px ;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+input:hover{
+     background-color: rgb(112, 109, 109);
+     border: none;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     color: white;
+}
+
+
+#search{
+    margin-top: 20px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px ridge #070707ec;
+    padding: 7px 12px ;
+    outline: none;
+    color:rgb(3, 3, 3);
+    cursor: pointer;
+    text-decoration: solid;
+    transition: 0.25s;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#search:hover{
+    background-color: rgb(6, 6, 6);
+    transition: 0.5s;
+    letter-spacing: 2px;
+    text-transform:uppercase ; 
+    color: white;  
+}
+
+#table{
+    width: 98%;
+    margin-top: 10px;
+    height: 50%;
+    border: 2px ridge gray;  
+
+
+}
+
+#table-talab{
+    width: 98%;
+    margin-top: 20px;
+    height: 387px;
+    border: 2px ridge gray;  
+
+
+}
+
+
+#imprimer{
+    padding: 4px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px ridge #070707ec;
+    padding: 7px 12px ;
+    outline: none;
+    color:rgb(3, 3, 3);
+    cursor: pointer;
+    text-decoration: solid;
+    transition: 0.25s;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#imprimer:hover{
+    background-color: rgb(8, 8, 8);
+    transition: 0.5s;
+    letter-spacing: 2px;
+    text-transform:uppercase ; 
+    color: white; 
+}
+
+.content-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100% ;
+    margin: 20px 0;
+    border-radius:5px 5px 0 0  ;
+    overflow-y: scroll;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.15);
+ 
+}
+.content-table thead tr {
+    background-color: rgb(45, 100, 211);
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    border: 1px ridge black;
+    font-weight: bold;
+}
+.content-table th,.content-table td{
+    padding: 12px 15px;
+    width: 30px;
+
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr :nth-of-type(even){
+    background-color: #f3f3f3;
+    color: blue;
+    
+}
+.content-table tbody tr :last-of-type{
+    border-bottom: 2px solid rgb(45, 100, 211);
+}
+
+
+
+.talab-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100% ;
+    border-radius:5px 5px 0 0  ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.15);
+
+}
+.talab-table thead tr {
+    background-color: rgb(45, 100, 211);
+    color: #fff;
+    text-align: left;
+    
+    max-width: 100%;
+    border: 1px ridge black;
+    font-weight: bold;
+}
+.talab-table th,.talab-table td{
+    padding: 12px 15px;
+    width: 30px;
+}
+.talab-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.talab-table tbody tr :nth-of-type(even){
+    background-color: #f3f3f3;
+    
+}
+.talab-table tbody tr :last-of-type{
+    border-bottom: 2px solid rgb(45, 100, 211);
+}
+

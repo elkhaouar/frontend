@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="img-right" src="image/11.png" alt="" width="200px">
+        <img id="img-left" src="image/habss-550x309 (1).png" alt="" width="120px">
+        <a href="#menu" id="toggle"><span></span></a>
+
+        <div id="menu">
+          <ul>
+            <li><a href="Adduser.html">Add User</a></li>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="Login.html">Logout</a></li>
+          </ul>
+        </div>
+    </header>
+    <br>
+    <fieldset id="field-pr" >
+      <legend style="text-align: left;font-size: 25px;">Profil</legend>
+      
+      <input type="file" accept="image/png,image/jpg" name=" inpFile" id="inpFile" >
+      <div class="image-preview" id="imagePreview">
+        <img src="" alt="Image Preview" class="image-preview__image">
+        <span class="image-preview__default-text"></span>
+      </div>
+      
+    </div>
+    <button onclick ="defaultBtnActive() " id="custom-btn">Change picture</button>
+    <br>
+      <div style="margin-left: 20px;margin-top: 10px;">
+        <label for="">User Name </label>
+        <input type="text"style="margin-left:53px ;margin-top:20px;"><br><br>
+        <label for="">Password</label>
+        <input type="password" style="margin-left:64px ;margin-top:20px;"><br><br>
+        <label for="">Matricule</label>
+        <input type="text"style="margin-left:64px ;margin-top:20px;"><br><br>
+        <label for="" >Email</label>
+        <input type="email"style="margin-left:97px ;margin-top:20px;"><br><br>
+        <label for="">Date Naissance</label>
+        <input type="date"style="margin-left:20px ;margin-top:20px;"><br><br>
+        <label for="">Adress</label>
+        <input type="adress"style="margin-left:87px ;margin-top:20px;">
+
+
+      </div>
+      <div id="profil-right" style="float: right; margin-top:-324px; margin-right: 210px;">
+        <label for="">Nom</label>
+        <input type="text"style="margin-left:105px ;"><br><br>
+        <label for="">Prenom</label>
+        <input type="text"style="margin-left:82px ;margin-top:20px;"><br><br>
+        <label for="">CIN</label>
+        <input type="text"style="margin-left:115px;margin-top:20px;"><br><br>
+        <label for="">Etablissement</label>
+        <input type="text"style="margin-left:31px ; margin-top:20px;"><br><br>
+        <label for="">Age</label>
+        <input type="age"style="margin-left:115px ;margin-top:20px;"><br><br>
+        <label for="">Telephone</label>
+        <input type="tel"style="margin-left:66px ;margin-top:20px;"><br><br>
+
+
+      </div>
+      <br>
+      <input type="button" value="update" id="update-btn">
+    </div>
+    </fieldset>
+<script src="js/file.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

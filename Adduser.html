@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="img-right" src="image/11.png" alt="" width="200px">
+        <img id="img-left" src="image/habss-550x309 (1).png" alt="" width="120px">
+        <a href="#menu" id="toggle"><span></span></a>
+
+        <div id="menu">
+          <ul>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="Login.html">Logout</a></li>
+          </ul>
+        </div>
+    </header>
+    <br>
+    <fieldset id="field-pr" >
+      <legend style="text-align: left;font-size: 25px;">Add User</legend>
+         
+        <input type="file" accept="image/png,image/jpg" name=" inpFile" id="inpFile" >
+        <div class="image-preview" id="imagePreview">
+          <img src="" alt="Image Preview" class="image-preview__image">
+          <span class="image-preview__default-text"></span>
+        </div>
+        
+      </div>
+      <button onclick ="defaultBtnActive() " id="custom-btn">Choose a picture</button>
+
+    <div id="profil-left" style="margin-left: 30px; margin-top: 38px;">
+
+      <div>
+
+        <label for="">Nom</label>
+        <input type="text"style="margin-left:102px ;"><br><br>
+        <label for="">Prenom</label>
+        <input type="text"style="margin-left:78px ;margin-top:20px;"><br><br>
+        <label for="">Matricule</label>
+        <input type="text"style="margin-left:65px ;margin-top:20px;"><br><br>
+        <label for="" >Email</label>
+        <input type="email"style="margin-left:98px ;margin-top:20px;"><br><br>
+        <label for="">Date Naissance</label>
+        <input type="date"style="margin-left:20px ;margin-top:20px;width:167px;"><br><br>
+        <label for="">Adress</label>
+        <input type="adress"style="margin-left:91px ;margin-top:20px;"><br><br>
+        <label for="">Telephone</label>
+        <input type="tel"style="margin-left:66px ;margin-top:20px;">
+
+
+      </div>
+      <div id="profil-right" style="float: right; margin-top:-405px; margin-right: 150px;position: relative;">
+        <label for="">User Name </label>
+        <input type="text"style="margin-left:134px ;margin-top:20px;"><br><br>
+        <label for="">Mot de pass</label>
+        <input type="password" style="margin-left:126px ;margin-top:20px;"><br><br>
+        <label for="">Confirm mot de pass</label>
+        <input type="password" style="margin-left:60px ;margin-top:20px;"><br><br>
+        <label for="">CIN</label>
+        <input type="text"style="margin-left:196px;margin-top:20px;"><br><br>
+        <label for="">Etablissement</label>
+        <input type="text"style="margin-left:111px ; margin-top:20px;"><br><br>
+        <label for="">Age</label>
+        <input type="age"style="margin-left:193px ;margin-top:20px;"><br>
+        <input type="button" value="Add" id="Add-btn">
+
+
+
+
+      </div>
+     
+
+    </div>
+
+    </fieldset>
+<script src="js/file.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
